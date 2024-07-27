@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "default": "test-6e5be",
+    "melwin": "melwin-e3b21",
+    "test": "test-6e5be"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

@@ -1,0 +1,23 @@
+<div class="displayFlex"><ag-grid-angular #personalGrid class="ag-theme-quartz outerBorder"  style="width:850px;"
+[rowData]="indexRowData"
+[columnDefs]="indexColDefs" 
+
+
+[headerHeight]="0"
+[domLayout]='domLayout'
+(gridReady)="onGridReady($event)"
+     
+      
+/>
+
+<ag-grid-angular #dateGrid class="ag-theme-quartz outerBorder"  style="width:450px;"
+[rowData]="dateRowData"
+[columnDefs]="dateColDefs" 
+
+[domLayout]='domLayout'
+[headerHeight]="0"
+      (gridReady)="onDateGridReady($event)"
+     
+      
+/>
+</div>

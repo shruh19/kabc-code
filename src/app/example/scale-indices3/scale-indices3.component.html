@@ -1,0 +1,29 @@
+
+<ag-grid-angular class="ag-theme-quartz"  style="width: 1000px;"
+[rowData]="rowData"
+[columnDefs]="colDefs" 
+[domLayout]='domLayout'
+(gridReady)="onGridReady($event)"
+[headerHeight]="0"
+/>
+
+<div class="wrapper">
+    
+    <ag-charts #agChart [options]="options" class="chart" ></ag-charts>
+    <div class="description">
+        <div style="display: flex">
+        <div class ="spacer"></div>
+        <div class="text">(einkreisen)
+            Konfidenz-
+            intervall</div>
+            </div>
+            <div style="display: flex">
+                <div class ="spacer2"></div>
+                <div class="text">Skalenindices
+                    (Standardwert)</div>
+                    </div>
+            
+    </div>
+   
+ 
+  </div> 

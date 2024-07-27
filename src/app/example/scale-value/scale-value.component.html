@@ -1,0 +1,11 @@
+
+
+
+<ag-grid-angular #scaleGrid class="ag-theme-quartz"  style="width: 1000px;"
+[rowData]="rowData"
+[columnDefs]="colDefs" 
+[domLayout]='domLayout'
+(gridReady)="onGridReady($event)"
+[headerHeight]="0"
+
+/>

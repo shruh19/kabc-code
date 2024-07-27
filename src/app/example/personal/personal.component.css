@@ -1,0 +1,40 @@
+.personalTableClass1{
+    background-color:pink;
+}
+
+.cell1  {
+    background-color: #E3DFEB !important;
+    border-color:none !important;
+    text-align: center;
+}
+
+.cell-blue {
+    background-color: #2244cc44;
+}
+
+.outerBorder{
+    border:2px solid black;
+}
+.font{
+    font-weight: 600;
+}
+.cell-green{
+    background-color:#BFDDE7;
+}
+.cell-peach{
+    background-color: #EEECE2;
+}
+.displayFlex{
+    display:flex;
+}
+
+.textCenter{
+    text-align:center;
+}
+
+.smallCell{
+    width: 50px;
+}
+.widthStyle{
+    width:200px;
+}

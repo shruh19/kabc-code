@@ -1,0 +1,145 @@
+.example-action-buttons {
+  padding-bottom: 20px;
+}
+
+.example-headers-align .mat-expansion-panel-header-description {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.example-headers-align .mat-mdc-form-field + .mat-mdc-form-field {
+  margin-left: 8px;
+}
+.generatePdf{
+  display: flex;
+    
+  padding-top:30px;
+ 
+}
+.generatePdf > button {
+  margin-left: 470px;
+  background-color: #439742 !important;
+}
+.pdfheader{
+  font-weight: bold;
+}
+.logo{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo > img {
+  width: 500px;
+
+}
+.margin-top{
+  margin-top: 100px;
+}
+
+.headerClass {
+  background-color: #DCE6F1;
+  border:2px solid #081F5C;
+}
+.cell1-bk{
+  background-color: #439742 !important;
+  color: white;
+}
+
+.cell2-bk{
+  background-color: #993300!important;
+  color: white;
+}
+
+.cell3-bk{
+  background-color: #CC1F54!important;
+  color: white;
+}
+
+.cell4-bk{
+  background-color: #CCCCCC!important;
+  color: #6D2C63;
+}
+.cell5-bk{
+  background-color: #6D2C63!important;
+  color: white;
+}
+
+.cell6-bk{
+  background-color: #CCCCCC!important;
+  color: green;
+}
+
+.cell7-bk{
+  background-color: #D9D9D9!important;
+  color: #123293;
+}
+
+.cell8-bk{
+  background-color: #123293!important;
+  color: white;
+}
+
+.cell9-bk{
+  background-color: #439742!important;
+  color: white;
+}
+
+.cell10-bk{
+  background-color: #6D2C63!important;
+  color: white;
+}
+
+.cell11-bk{
+  background-color: #6D2C63!important;
+  color: white;
+}
+.cell12-bk{
+  background-color: #BB3356!important;
+  color: white;
+}
+.cell13-bk{
+  background-color: #8D3A16!important;
+  color: white;
+}
+.cell14-bk{
+  background-color: #CCCCCC!important;
+  color: #BB3356;
+}
+.cell15-bk{
+  background-color: #CCCCCC!important;
+  color: #439742;
+}
+.cell16-bk{
+  background-color: #334994!important;
+  color: white;
+}
+.margin-left {
+  margin-left: 100px;
+}
+#pdfContent{
+  width:1300px;
+}
+.para1,.para2,.para3{
+  width:800px
+}
+.border-bottom{
+  border-bottom: 1px solid black;
+}
+.margin-top20{
+  margin-top: 20px;
+}
+
+.editor {
+  border: none;
+  border-radius: 4px;
+
+  
+
+  .NgxEditor {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: none;
+  }
+
+  
+}

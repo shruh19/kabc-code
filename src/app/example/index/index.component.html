@@ -1,0 +1,10 @@
+<ag-grid-angular #indexGrid class="ag-theme-quartz outerBorder"  style="width:850px;"
+[rowData]="indexRowData"
+[columnDefs]="indexColDefs" 
+[headerHeight]="0"
+[domLayout]='domLayout'
+(cellEditingStopped)="onCellEditingStopped($event)"
+      (gridReady)="onGridReady($event)"
+     
+      
+/>

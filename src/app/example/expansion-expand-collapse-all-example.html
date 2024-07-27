@@ -1,0 +1,92 @@
+<div id="dashboard1" class="margin-top">
+  <div class="logo"  >
+    <img #logoImg
+      alt="pastedImage"
+      src="assets/external/pastedimage-zq6-1500w.png"
+    />
+  </div>
+  <div class="margin-left">
+ <app-personal (userData) = "getUserData($event)"></app-personal>
+ </div>
+
+
+
+
+
+<div  class="margin-top margin-left" >
+  <ag-grid-angular  class="ag-theme-quartz border-bottom"  style="width: 800px;"
+[rowData]="rowData"
+[columnDefs]="colDefs" 
+[domLayout]='domLayout'
+(gridReady)="onGridReady($event)"
+[defaultColDef]="defaultColDef"
+/>
+</div>
+ 
+
+<div class="margin-top margin-left">
+   <app-index></app-index>
+  </div>
+  
+</div>
+<div id="dashboard2" class="margin-top">
+ 
+  <div class="margin-top margin-left">
+    <app-scale-indices></app-scale-indices>
+</div>
+
+  <div class="margin-top margin-left">
+          <app-scale-value></app-scale-value>
+         
+</div>
+<div class="margin-top margin-left">
+          <app-scale-indices2 (scaleIndiceEvent) = "getScaleIndices($event)"></app-scale-indices2>
+     </div>
+     <div class="margin-top margin-left">
+      <app-interval></app-interval>
+      </div>
+     </div>
+     <div id="dashboard3">
+    
+        
+
+            <div class="margin-top margin-left">
+              <app-scale-indices3></app-scale-indices3>
+        </div>
+
+        <div class="margin-top margin-left">
+                <app-final-scale></app-final-scale>
+                </div>
+              </div>          
+                <div id="pdfContent" class="margin-left" style="display:none"></div> 
+
+                <div id="content"  class="margin-left margin-top" style="display:none;width:1000px;border:none">
+    
+
+                  <form [formGroup]="form">
+                    <div class="editor">
+                      <ngx-editor id =editor [editor]="editor" formControlName="editorContent" style="border:none">
+                      </ngx-editor>
+                    </div>
+                  </form>
+              <div>
+                  <div style='height:250px'></div>
+                  <div><i>Sonja Pfeiffer</i></div>
+                  <div><i>Dipl. Sozialpäd./ Dipl. Sozarb.</i></div>
+                  <i><div>Praxis für Tiefenpsychologisch fundierte Kinder- und Jugendlichenpsychtherapie und Psychoanalyse</div>
+                  <div>Einzeltherapie und Gruppentherapie</div></i>
+                  </div>
+                </div>
+               
+
+<div class ="generatePdf">
+  <button mat-flat-button class="btn btn-primary" (click)="getPdfBtnClick()">Get Pdf Data</button>
+                <button mat-flat-button class="btn btn-primary" (click)="generatePdf()">Generate PDF</button>
+              </div>  
+
+              
+<!-- </mat-accordion> -->
+
+
+
+

@@ -1,0 +1,11 @@
+
+<div>
+<ag-grid-angular #intervalGrid class="ag-theme-quartz"  style="width: 700px;"
+[rowData]="rowData"
+[columnDefs]="colDefs" 
+[domLayout]='domLayout'
+(gridReady)="onGridReady($event)"
+[headerHeight]="0"
+
+/>
+</div>

@@ -1,0 +1,9 @@
+
+
+<ag-grid-angular #scaleIndicesGrid class="ag-theme-quartz"  style="width: 1000px;"
+[rowData]="rowData"
+[columnDefs]="colDefs" 
+[headerHeight]="0"
+[domLayout]='domLayout'
+(gridReady)="onGridReady($event)"
+/>
